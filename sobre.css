@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    /* fazer com que a borda seja parte da dimensão em todas as partes em que uso algo com borda; ou seja, a borda ocupa o espaço contemplado para aquela div, AS DIVS JÁ TÊM BORDAS, NATURALMENTE!!*/
+    background-color: #F5E3E0;
+}
+
+
+body{
+    margin: 0;
+}
+
+
+
+
+  /*PÁGINA INICIAL*/
+
+  #A , #B , #C , #D , #E , #F , #G , #H , #I , #J , #K{
+  width: 10%;
+  height: 30vh;
+  background-color: rgb(133, 189, 50); 
+  float: left; 
+  }
+  
+  #A , #B , #J , #K{
+   background-color: rgb(255, 255, 255); 
+  }
+
+
+
+
+  /*MENU DE NAVEGAÇÃO*/
+  .py-2d-noned-md-inline-block {
+    background-image:url(sobre.png);
+  }
+
+
+  
+  /*SOBRE - PARTE 1*/
+  #destaque {
+    background: url(mari1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.subtitulo {
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    padding: 5px;
+}
+.botaoVerde {
+    background-color: #FFBA49;
+    padding: 20px;
+    color:white;
+    }
+
+
+     /*SOBRE - PARTE 2*/
+    .col-sm-6imagem2{
+    position: relative;
+    
+    }
+    .texto-sobre-imagem {
+    position:relative;
+    }

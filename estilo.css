@@ -1,0 +1,68 @@
+* {
+   box-sizing: border-box;
+   /* Faz com que a borda seja parte da dimensão em todas as partes onde uso algo com borda */
+   /* As divs já têm bordas naturalmente */
+   background-color: #F5E3E0;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-weight: 700;
+}
+
+body {
+   margin: 0;
+}
+
+p {
+   background-color: aliceblue;
+   opacity: 0.5;
+}
+
+div {
+   width: 200px;
+   height: 200px;
+   position: absolute;
+}
+
+#A {
+   /* background: url(); */
+   background-size: cover;
+   top: 100px;
+   left: 650px;
+}
+
+#B {
+   /* background: url(); */
+   background-size: cover;
+   top: 400px;
+   left: 500px; 
+}
+
+#C {
+   /* background: url(); */
+   background-size: cover;
+   top: 100px;
+   right: 650px;
+}
+
+#D {
+   /* background: url(); */
+   background-size: cover;
+   top: 400px;
+   right: 500px;
+}
+
+#E {
+   /* background: url(); */
+   background-size: cover;
+   top: 700px;
+   right: 850px;
+}
+
+#F {
+   background: url(5-1.png);
+   background-size: cover;
+   top: 300px;
+   right: 750px;
+   width: 400px;
+   height: 400px;
+}
+
