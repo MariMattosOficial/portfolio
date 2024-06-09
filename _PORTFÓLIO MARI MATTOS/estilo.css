@@ -1,0 +1,52 @@
+* {
+   box-sizing: border-box;
+   background-color: #F5E3E0;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-weight: 150;
+   image-rendering: auto;
+}
+
+body {
+   margin: 0;
+}
+
+/*PÁGINA INICIAL*/
+#coluna1 , #coluna2 , #coluna3 , #coluna4 , #coluna5 , #coluna6 , #coluna7, #coluna8 {
+   text-align: center;
+}
+
+
+/*SOBRE*/
+#sobreContainer{
+   width: 100%;
+    height: 50%;
+    object-fit: cover; 
+}
+
+/*TRABALHOS*/
+#caixa1 , #caixa2 , #caixa3  , #caixa4 , #caixa5 , #caixa6 , #caixa7 , #caixa8 {
+   text-align: left;
+   padding-left: 5%;
+   padding-right: 5%;
+   text-decoration: solid;
+}
+
+/*GALERIA*/
+.containerGaleria{
+   text-align: center;
+   width: 100%;
+   padding-left: 0;
+   padding-right: 0;
+}
+
+/*CONTATO*/
+.containerContato{
+   width:100%;
+   padding: 0px;
+   margin: 0px;  
+}
+ 
+/*EM CARTAZ*/
+#emCartaz {
+   width: 100%;
+}
